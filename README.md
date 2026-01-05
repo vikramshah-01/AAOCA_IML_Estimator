@@ -2,15 +2,11 @@
 
 This is the repository for "A computational approach for intramural length estimation in anomalous aortic origin of a coronary artery"
 
-In this repository there are two folders:
+This repository contains the following folders:
 - `src` which contains the source code for the repository
     - **Intramural_Dist_Estimator.m** is the driver function of the repository
     - **parseXML.m** is a helper function called by **Intramural_Dist_Estimator.m** which coverts the **pth** file from symvascular into an **xml** file which can be read by MATLAB
     - **piecewiseLine.m** is a helper function called by **Intramural_Dist_Estimator.m** which describes the piecewise continuous linear fit used to determine the intramural length
-- `example` which contains a example of how to use the main function of the repository
-    - **IML_example.m** shows an example on how to used **Intramural_Dist_Estimator.m**
-    - **example_mesh.stl** and **example_path.pth** are an example aortic mesh and centerline respectively that are used by **IML_example.m**
-    - The output of **IM_example.m** to 6 decimal places should be <ins>5.875378<ins>
 
 
 # How to use **Intramural_Dist_Estimator.m**
